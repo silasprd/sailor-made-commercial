@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+:root{
+  --primary: #005F9C;
+  --primary-minus-1: #0082D7;
+  --primary-minus-2: #089CFB;
+  --primary-plus-1: #004C7E;
+  --primary-plus-2: #003A5F;
+  --secondary: #A67C00;
+  --secondary-minus-1: #FFDC73;
+
+  --text-primary: #212121;
+  --text-secondary: #757575;
+  --text: #FFFFFF;
+
+  --button: #7E803C;
+}
+
+@media screen and (max-width: 768px) {
+  html, body {
+    display: flex;
+  }
+}

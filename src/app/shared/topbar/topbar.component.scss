@@ -1,0 +1,51 @@
+.top-bar{
+  display: flex;
+  background-color: var(--primary);
+  justify-content: space-between;
+  margin-bottom: 4px;
+  .sailor-logo{
+    display: flex;
+    flex-direction: column;
+    padding: 7px;
+    span{
+      font-size: 20px;
+      font-family: 'K2D';
+      font-weight: 600;
+      font-style: italic;
+      color: var(--text);
+      padding: 7px;
+    }
+    img{
+      padding: 7px;
+      width: 330px;
+    }
+  }
+  .sailor-institutional{
+    display: flex;
+    align-items: flex-end;
+    text-align: end;
+    span{
+      font-size: 16px;
+      font-family: 'K2D';
+      font-weight: 600;
+      color: var(--text);
+      text-align: justify;
+      padding: 7px 7px 14px 7px;
+    }
+    img{
+      width: 100px;
+      height: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-bar{
+    span{
+      font-size: 12px;
+    }
+    img{
+      width: 150px;
+    }
+  }
+}
