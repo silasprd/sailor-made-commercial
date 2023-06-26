@@ -9,6 +9,8 @@ import { SisgaazComponent } from './core/components/sisgaaz/sisgaaz.component';
 import { TecnologyComponent } from './core/components/tecnology/tecnology.component';
 import { TopbarComponent } from './shared/topbar/topbar.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
+
 
 @NgModule({
   declarations: [
@@ -23,6 +25,7 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    CarouselModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
