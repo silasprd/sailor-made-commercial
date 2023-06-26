@@ -1,58 +1,77 @@
 <div class="container">
-
   <div class="content">
     <div class="text-content">
-
       <div class="title">
-        <h2>TECNOLOGIA E NÃO MAGIA AO ALCANCE DE TODOS QUE SE LANÇAM AO MAR.</h2>
+        <ngb-carousel *ngIf="images">
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <img [src]="images[0]" alt="Amazônia Azul" />
+            </div>
+          </ng-template>
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <img [src]="images[1]" alt="SisGAAz" />
+            </div>
+          </ng-template>
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <img [src]="images[2]" alt="boats" />
+            </div>
+          </ng-template>
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <img [src]="images[3]" alt="logo" />
+            </div>
+          </ng-template>
 
-        <h5>Tudo com absoluta segurança, o SailorMade é uma tecnologia que permite que os barcos estejam  em permanente contato com outros barcos, e com pontos em terra, dentro da área de cobertura.</h5>
+        </ngb-carousel>
       </div>
-
 
       <div class="list-content">
+        <div class="text">
+          <h4>Tecnologia e não magia ao alcance de todos que se lançam ao mar.</h4>
+          <p>
+            Tudo com absoluta segurança, o SailorMade é uma tecnologia que permite que os barcos estejam em permanente contato com outros barcos, e com pontos em terra, dentro da área de cobertura.
+          </p>
+        </div>
 
-        <ul class="list-style">
-          <li>Localização em tempo real</li>
-          <li>Cobertura Wifi</li>
-          <li>Emissão de alertas em tempo real</li>
-          <li>Permanente contato com pontos em terra</li>
-        </ul>
-
-        <a id="access-button" href="https://sailormade.online" target="_blank"><button>ACESSE JÁ</button></a>
-
+        <a id="access-button" href="https://sailormade.online" target="_blank"
+          ><button>ACESSE JÁ</button></a
+        >
       </div>
-
     </div>
 
     <div class="cards">
       <div class="card-list">
         <li class="card-item">
-          <div class="card">
-            <h1>Sinergia</h1>
-            <p>Cada barco estará conectado permanentemente á terra firme, em uma troca constante de informações.</p>
-          </div>
+          <h2>Sinergia</h2>
+          <p>
+            Cada barco estará conectado permanentemente á terra firme, em uma
+            troca constante de informações.
+          </p>
         </li>
         <li class="card-item">
-          <div class="card">
-            <h1>Satisfação</h1>
-            <p>Cada barco estará conectado permanentemente á terra firme, em uma troca constante de informações.</p>
-          </div>
+          <h2>Satisfação</h2>
+          <p>
+            Cada barco estará conectado permanentemente á terra firme, em uma
+            troca constante de informações.
+          </p>
         </li>
         <li class="card-item">
-          <div class="card">
-            <h1>Simplicidade</h1>
-            <p>Cada barco estará conectado permanentemente á terra firme, em uma troca constante de informações.</p>
-          </div>
+          <h2>Simplicidade</h2>
+          <p>
+            Cada barco estará conectado permanentemente á terra firme, em uma
+            troca constante de informações.
+          </p>
         </li>
         <li class="card-item">
-          <div class="card">
-            <h1>Segurança</h1>
-            <p>Cada barco estará conectado permanentemente á terra firme, em uma troca constante de informações.</p>
-          </div>
+          <h2>Segurança</h2>
+          <p>
+            Cada barco estará conectado permanentemente á terra firme, em uma
+            troca constante de informações.
+          </p>
         </li>
       </div>
     </div>
   </div>
-
 </div>
