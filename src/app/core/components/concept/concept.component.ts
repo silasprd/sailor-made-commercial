@@ -12,4 +12,11 @@ export class ConceptComponent implements OnInit {
   ngOnInit() {
   }
 
+  images = [
+    '../../../../assets/amazoniaazul.jpg',
+    '../../../../assets/SisGAAz.jpg',
+    '../../../../assets/boats in sea.jpg',
+    '../../../../assets/logo.JPG',
+  ]
+
 }
