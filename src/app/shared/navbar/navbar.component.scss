@@ -1,7 +1,7 @@
 .nav-bar{
   display: flex;
   .nav-card{
-    background-color: var(--assets-minus-1);
+    background-color: var(--assets-minus-1-opc);
     padding: 5px 40px;
     margin: 0 2px;
     cursor: pointer;
@@ -21,7 +21,13 @@
   :hover {
     background-color: var(--assets);
     span{
-      color: var(--assets-minus-1);
+      color: var(--secondary-minus-1);
+    }
+  }
+  .nav-card.active{
+    background-color: var(--assets);
+    span{
+      color: var(--secondary-minus-1);
     }
   }
 }
