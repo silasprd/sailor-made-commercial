@@ -1,14 +1,14 @@
 <nav class="nav-bar">
-  <div class="nav-card" routerLink="">
+  <div class="nav-card" routerLink="/" [class.active]="isLinkActive('/')">
     <span>Conceito</span>
   </div>
-  <div class="nav-card" routerLink="/tecnologia">
+  <div class="nav-card" routerLink="/tecnologia" [class.active]="isLinkActive('/tecnologia')">
     <span>Tecnologia</span>
   </div>
-  <div class="nav-card" routerLink="/amazonia-azul-sisgaaz">
+  <div class="nav-card" routerLink="/amazonia-azul-sisgaaz" [class.active]="isLinkActive('/amazonia-azul-sisgaaz')">
     <span>Amazônia Azul e SisGAAz</span>
   </div>
-  <div class="nav-card" routerLink="/contato">
+  <div class="nav-card" routerLink="/contato" [class.active]="isLinkActive('/contato')">
     <span>Contato</span>
   </div>
 </nav>

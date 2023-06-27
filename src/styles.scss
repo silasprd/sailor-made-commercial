@@ -10,14 +10,27 @@ html, body{
   width: 100%;
 }
 
+body{
+  background-image: url(./assets/sea.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 :root{
   --primary: #005F9C;
+  --primary-opc: #005F9C7b;
   --primary-minus-1: #0082D7;
+  --primary-minus-1-opc: #0082D77b;
   --primary-minus-2: #089CFB;
   --primary-plus-1: #004C7E;
   --primary-plus-2: #003A5F;
   --secondary: #A67C00;
   --secondary-minus-1: #FFDC73;
+  --assets: #008947;
+  --assets-opc: #0089477b;
+  --assets-minus-1: #00FC83;
+  --assets-minus-1-opc: #00FC837b;
 
   --text-primary: #212121;
   --text-secondary: #757575;
@@ -31,3 +44,6 @@ html, body{
     display: flex;
   }
 }
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';

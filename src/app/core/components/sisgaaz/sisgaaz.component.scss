@@ -1,36 +1,49 @@
 .container{
   display: flex;
+  justify-content: center;
+  padding: 16px;
   width: 100%;
-  padding: 40px 80px;
 
   .content{
     display: flex;
     width: 100%;
+    .image{
+      width: 100%;
+      img{
+        width: 100%;
+        height: 280px;
+        box-shadow: 0px 2px 21px #000000;
+      }
+    }
     .text-content{
       font-family: 'K2D';
       text-align: center;
+      width: 100%;
+      margin: 0 30px;
+      background-color: var(--primary-minus-1-opc);
+      padding: 0 30px;
       .title{
-        color: var(--primary-plus-2);
+        color: var(--secondary-minus-1);
         margin-top: 24px;
-        font-size: 32px;
-        h5{
-          margin: 0;
+        h4{
+          font-size: 22px;
+          font-weight: 800;
         }
       }
       .text{
-        padding: 10px 28px;
+        display: flex;
+        justify-content: center;
         p{
-          color: var(--text-secondary);
+          color: var(--text);
           font-size: 16px;
-          margin: 10px 0;
+          line-height: 1.8rem;
         }
       }
     }
     .text-card{
-      background-color: var(--primary-minus-1);
+      background-color: var(--primary-minus-1-opc);
       font-family: 'K2D';
       box-shadow: 0px 2px 21px #000000;
-      border-radius: 14px;
       margin-left: 20px;
       padding: 0 22px;
       color: var(--text);
@@ -39,18 +52,20 @@
       h4{
         color: var(--secondary-minus-1);
         margin-top: 24px;
+        font-size: 22px;
+        font-weight: 800;
+      }
+      h5{
         font-size: 18px;
       }
       ul{
-        color: var(--text);
-        font-size: 16px;
+        font-size: 18px;
       }
     }
 
     .limit-card{
       padding: 26px;
-      border-radius: 14px;
-      background-color: var(--primary-minus-1);
+      background-color: var(--primary-minus-1-opc);
       width: 50%;
       box-shadow: 0px 2px 21px #000000;
       margin-right: 20px;
@@ -58,26 +73,18 @@
       h4{
         color: var(--secondary-minus-1);
         font-size: 22px;
+        font-weight: 800;
       }
       h6{
         color: var(--secondary-minus-1);
         font-size: 14px;
+        font-weight: 600;
       }
       ul{
         line-height: 2rem;
         color: var(--text);
-        font-size: 20px;
+        font-size: 18px;
       }
-    }
-  }
-
-  .image{
-    width: 80%;
-    img{
-      border-radius: 14px;
-      width: 100%;
-      height: 300px;
-      box-shadow: 0px 2px 21px #000000;
     }
   }
 }
@@ -88,6 +95,9 @@
     .content{
       justify-content: center;
       flex-direction: column;
+      .text-content{
+        margin: 10px 0!important;
+      }
       .image{
         width: 100%;
       }
@@ -97,7 +107,6 @@
       .limit-card{
         margin-right: 0 !important;
         width: 100% !important;
-        margin-bottom: 20px;
       }
     }
   }
