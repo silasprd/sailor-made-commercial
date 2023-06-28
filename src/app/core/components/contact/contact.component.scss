@@ -1,4 +1,4 @@
-.container{
+.container-box{
   display: flex;
   justify-content: center;
   padding: 16px;
@@ -11,7 +11,7 @@
     flex-direction: column;
     width: 70%;
     align-self: center;
-    padding: 35px 10px;
+    padding: 35px;
     background-color: var(--primary-minus-1-opc);
     box-shadow: 0px 2px 21px #000000;
     .social-media{
@@ -34,6 +34,15 @@
       a:hover{
         color: var(--secondary-minus-1);
       }
+    }
+  }
+}
+
+@media screen and (max-width: 768px){
+  .container-box{
+    justify-content: flex-start;
+    .content{
+      width: 100%;
     }
   }
 }
