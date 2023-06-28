@@ -13,10 +13,10 @@ export class ConceptComponent implements OnInit {
   }
 
   images = [
-    '../../../../assets/amazoniaazul.jpg',
-    '../../../../assets/SisGAAz.jpg',
-    '../../../../assets/boats in sea.jpg',
-    '../../../../assets/logo.JPG',
+    'assets/amazoniaazul.jpg',
+    'assets/SisGAAz.jpg',
+    'assets/boatsInSea.jpg',
+    'assets/logo.jpg',
   ]
 
 }
