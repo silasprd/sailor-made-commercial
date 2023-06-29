@@ -94,7 +94,7 @@
       }
     }
     .card-content{
-      padding: 20px 20px !important;
+      padding: 0 !important;
       flex-direction: column;
       height: auto;
       .text-content{
@@ -102,7 +102,7 @@
         margin-right: 0 !important;
       }
       .image{
-        margin-left: 0 !important;
+        margin: 10px 0!important;
         width: 100% !important;
       }
     }
