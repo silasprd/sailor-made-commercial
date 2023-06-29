@@ -130,7 +130,11 @@
       .text-content{
         flex-direction: column;
         .carousel-card{
-          width: 100%;
+          width: 100% !important;
+
+          img{
+            width: 480px !important;
+          }
         }
         .list-content{
           padding-left: 0 !important;
@@ -138,7 +142,13 @@
             margin-left: 20px !important;
           }
           .text{
-            padding: 10px 0 0 0 !important;
+            padding: 20px 0 0 0 !important;
+            h4{
+              margin-bottom: 0 !important;
+            }
+            p{
+              margin-bottom: 16px !important;
+            }
           }
         }
       }
